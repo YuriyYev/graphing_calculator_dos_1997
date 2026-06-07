@@ -1,6 +1,6 @@
 # Graphing Calculator for DOS (1997–2000)
 
-Built in high school for fun. Full-featured engineer-grade calculator with long math expression evaluation, multiple variables, statistics support, and flexible graphing abilities. **Zero library dependencies.**
+Built in high school for fun, do not judge the code by 2026 standards. Full-featured engineer-grade calculator with long math expression evaluation, multiple variables, statistics support, and flexible graphing abilities. **Zero library dependencies.**
 
 ![Main calculator screen](screenshot_main.png)
 
