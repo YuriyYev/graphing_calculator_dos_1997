@@ -88,7 +88,7 @@ The project was built with **Borland C++ 5** (final version) and **Turbo Assembl
 
 ## Background
 
-Written by Yuriy Yevtukhov in Ukraine, starting around 1997, at age 16. A longer writeup of how it was built — the parser, the FPU tricks, the DAC fade effect, the mouse interrupt architecture — is available as an article: *[link to article](https://dev.to/yuriyyev/building-without-libraries-doesnt-teach-you-to-avoid-them-it-teaches-you-to-understand-them-385j)*
+Written by Yuriy Yevtukhov in Ukraine, starting around 1997, at age 16. A longer writeup of how it was built — the parser, the FPU tricks, the DAC fade effect, the mouse interrupt architecture — is available as an article: *[Building Without Libraries Doesn't Teach You to Avoid Them — It Teaches You to Understand Them](https://dev.to/yuriyyev/building-without-libraries-doesnt-teach-you-to-avoid-them-it-teaches-you-to-understand-them-385j)*
 
 ---
 
