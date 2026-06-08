@@ -55,9 +55,9 @@ With `A=0`, `B=5`, `n=100000`: result is `41.666875` (exact: `125/3 = 41.666666(
 
 | Main screen | Graphing mode |
 |-------------|---------------|
-| ![Main screen](screenshot_main.png) | ![Graph mode](screenshot_graph.png) |
+| ![Main screen](screenshot_main_ru.png) | ![Graph mode](screenshot_graph.png) |
 
-The program still runs under DOSBox.
+The program still runs under DOSBox. Later version is in Russian.
 
 ---
 
