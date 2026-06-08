@@ -43,13 +43,20 @@ No libc. No graphics library. No math library. No input library. Everything is i
 
 ## Numerical integration example
 
-The Σ operator makes numerical integration possible in a single expression. To approximate ∫(x²*dx) from A to B we need to replace x with linear interpolation expression from i `i/(n-1)×(B-A)+A`, and dx with `(B-A)/n`:
+The Σ operator makes numerical integration possible in a single expression. To approximate ∫(x²*dx) from A to B using the method of rectangles we need to replace x with linear interpolation expression from i `i/n×(B-A)+A`, and dx with `(B-A)/n`:
 
 ```
-Σ((i/(n-1)×(B-A) + A)² × (B-A)/n)
+Σ((i/n×(B-A) + A)² × (B-A)/n)
 ```
 
-With `A=0`, `B=5`, `n=100000`: result is `41.666875` (exact: `125/3 = 41.666666(6)`).
+With `A=0`, `B=5`, `n=100000`: result is `41.666042..` (exact: `125/3 = 41.666666(6)`). 
+The method of trapezoids for approximation of integrals can give much better results with less iterations but needs more complicated formula:
+
+```
+Σ(((i/n×(B-A) + A)² + ((i+1)/n×(B-A) + A)²)/2 × (B-A)/n)
+```
+
+With `n` equal just 10000 gives result `41.666666875`.
 
 ---
 
