@@ -79,6 +79,7 @@ The program still runs under DOSBox. Later version is in Russian.
 | `MOUSEASM.ASM` | Mouse interrupt handler — assembly required, driver passes data in registers |
 | `CPUIDCPP.ASM` | CPU/FPU detection — full chain from 8086 to Pentium via flag register tricks |
 | `GRAPH18.CPP` | VGA Mode 12h graphics — direct video memory access |
+| `18BLANK.CPP` | VGA Mode 12h DAC registers control for fade in/fade out effect |
 | `Calcfont.cpp` | Bitmap font rendering |
 | `calcgraf.cpp` | Graphing mode — parametric plotting, pan, zoom, coordinate display |
 | `calcmul.cpp` | Statistical buffer |
